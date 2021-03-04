@@ -1,4 +1,4 @@
-# Self-Driving Vehicle Simulation using Deep Learning(CNN)
+# Autonomous Vehicle simulation with Computer Vision
 
 This repo contains code for predicting steering angles of self driving car. The inspiraion is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA, and inspired by [milsun](https://github.com/milsun)
 
