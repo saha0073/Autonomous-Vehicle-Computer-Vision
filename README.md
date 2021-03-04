@@ -8,12 +8,12 @@ The End to End Learning for Self-Driving Cars research paper can be found at (ht
 
 Data contains 3 camera(left, centre, right) output images as inputs along with steering angle as labels. Task is a supervised machine learning problem where objective is to predict steering angle based on camera inputs.
 
-Here, I have used CNN based architecture, which comprises of 5 Convolutions layers followed by a fully connected deep neural network with 3 hidden layers for predicting steering angles. Loss function used here is Mean Squared Error.
+Here, CNN based architecture is used, which comprises of 5 Convolutions layers followed by a fully connected deep neural network with 3 hidden layers for predicting steering angles. Loss function used here is Mean Squared Error.
 
 
 ## Prerequisites
 
-We will use Python as the primary programming language and PyTorch as the Deep Learning framework. Other resources / software / library could be found as follows.
+Python has been used as the primary programming language and PyTorch as the Deep Learning framework. Other resources / software / library could be found as follows.
 
 1. Self-driving car simulator developed by [Udacity](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd013) with Unity. Download [here](https://github.com/udacity/self-driving-car-sim)
 
@@ -30,7 +30,7 @@ python3 drive.py model/model.pth
 
 ## Dataset
 
-The Udacity provided dataset works well but it is not enough to get the car running in difficult terrain (like the second track in Udacity simulator). To gather the data from track 2, we would first need to create a folder in our project directory. Let’s call this folder "data". Now, start the simulator. Select the second track from the menu and go to the training mode option.
+The Udacity provided dataset works well but it is not enough to get the car running in difficult terrain (like the second track in Udacity simulator). To gather the data from track 2, at first a folder is needed to be created in the project directory. Let’s call this folder "data". Now, start the simulator. Select the second track from the menu and go to the training mode option.
 
 ![Menu](https://github.com/saha0073/Autonomous-Vehicle-Computer-Vision/blob/main/images/menu.png)
 
@@ -40,7 +40,7 @@ Click "RECORD" button on the right corner and select a directory as the folder t
 
 ![SelectDir](https://github.com/saha0073/Autonomous-Vehicle-Computer-Vision/blob/main/images/select_dir.png)
 
-Click "RECORD" again and move your car slowly and carefully. After you have completed recording your move, the training data will be stored in the folder you selected. Here I suggest you record at least 3 laps of the race. Please try best to stay at the center of the road. Also, record laps in reverse direction as it will give more data and thus would help avoid overfitting.
+Click "RECORD" again and move your car slowly and carefully. After you have completed recording your move, the training data will be stored in the folder you selected. Here record at least 3 laps of the race. Please try best to stay at the center of the road. Also, record laps in reverse direction as it will give more data and thus would help avoid overfitting.
 
 ### Data
 
