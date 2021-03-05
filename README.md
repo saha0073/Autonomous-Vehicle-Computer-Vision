@@ -1,6 +1,6 @@
 # Autonomous Vehicle simulation with Computer Vision
 
-This repo contains code for predicting steering angles of self driving car. The inspiraion is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA, and inspired by [milsun](https://github.com/milsun)
+This repo contains code for predicting steering angles of self driving car. The inspiraion is taken from Udacity Self driving car module as well End to End Learning for Self-Driving Cars module from NVIDIA, and inspired from 'AI-Driver-CNN-DeepLearning-PyTorch' by milsun.
 
 The End to End Learning for Self-Driving Cars research paper can be found at (https://arxiv.org/abs/1604.07316) This repository is built on PyTorch library.
 
